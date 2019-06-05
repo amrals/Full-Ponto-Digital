@@ -1,0 +1,301 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<html lang="pt-br">
+<body>
+    <header>
+        <h1>Ponto Digital</h1>
+        <nav>
+            <div class="menu_icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <a class="logo" href="#"><img src="imagens/logo2.png" alt="logo"></a>
+            <div class="menu">
+                <ul>
+                    <li><a href="#titulos" class="scrollLink">Funcionalidades</a></li>
+                    <!-- <li><a href="#como_funciona" class="scrollLink">Como Funciona</a></li> -->
+                    <li><a href="#planos" class="scrollLink">Planos</a></li>
+                    <li><a href="#quem_somos" class="scrollLink">Quem Somos</a></li>
+                    <!-- <li>Tel:3675-5913</li> -->
+                    <li><a href="#fale_conosco" class="scrollLink">Contato</a></li>
+                    <li><a href="#" class="log">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+    </section>
+
+    <section class="funcionalidades" id="titulos">
+        <h2>Funcionalidades</h2>
+        <div class="funcvantagens">
+            <h3>Para empregador</h3>
+            <h3>Para funcionário</h3>
+            <ul>
+                <li>
+                    <p>lindeza</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>lindeza</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="planos" id="planos">
+        <h2>Planos</h2>
+        <div class="tabela_preços">
+            <div class="col">
+
+                <div class="table">
+                    <h3>Free</h3>
+                    <div class="price">
+                        R$00,00
+                        <span>Por mês</span>
+                    </div>
+
+                    <ul>
+                        <li>1 Funcionário</li>
+                    </ul>
+                    <a href="#cadastro" class="scrollLink">Compre Agora</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="table">
+                        <h3>Low</h3>
+                        <div class="price">
+                            R$29,90
+                            <span>Por mês</span>
+                        </div>
+    
+                        <ul>
+                            <li>5 Funcionários</li>
+                        </ul>
+                        <a href="#cadastro" class="scrollLink">Compre Agora</a>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="table">
+                        <h3>Medium</h3>
+
+                        <div class="pop">Popular</div>
+
+                        <div class="price">
+                            R$149,90
+                            <span>Por mês</span>
+                        </div>
+    
+                        <ul>
+                            <li>50 Funcionários</li>
+                        </ul>
+                        <a href="#cadastro" class="scrollLink">Compre Agora</a>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="table">
+                        <h3>High</h3>
+                        <div class="price">
+                            R$299,90
+                            <span>Por mês</span>
+                        </div>
+    
+                        <ul>
+                            <li>300 Funcionários</li>
+                        </ul>
+                        <a href="#cadastro" class="scrollLink">Compre Agora</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="topBtn"><i class="fas fa-arrow-up"></i></button>
+
+    <h2 id="cadastro">Cadastre-se</h2>
+    <section class="cadastro">
+        <form action="GET" class="box_cad">
+            <label for="nome">Nome Completo : </label>
+            <input type="text" name="nome"  required>
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" required>
+            <label for="senha">Senha :</label>
+            <input type="password" name="senha" required>
+            <label for="data">Data de nascimento :</label>
+            <input type="date" name="data" id="datanascimento" required>
+            <input type="submit" name="" value="Cadastre-se">
+            <a href="#" class="log">Já tem uma conta? Faça login!</a>
+        </form>
+        <img src="imagens/mcpd.png" alt="imagem do produto">
+    </section>
+
+    <section class="quem_somos" id="quem_somos">
+        <h2>Quem somos</h2>
+        <div class="quem_somos_content">
+            <img src="imagens/carlos.png" alt="carlos">
+            <p>Somos a empresa Agora Vai Automação em Gestão de Projetos, do ramo de desenvolvimento de sistemas voltados para gerência de projetos presenciais ou à distância</p>
+            <img src="imagens/cesar.png" alt="cesar">
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="inner">
+            <h2>Avaliações</h2>
+            <div class="border"></div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="imagens/test1.png" alt="pessoa">
+                        <div class="name"><strong>Roberto</strong></div>
+                        <div class="stars">
+                            <i class="far fa fa-star"></i>
+                            <i class="far fa fa-star"></i>
+                            <i class="far fa fa-star"></i>
+                            <i class="far fa fa-star"></i>
+                            <i class="far fa fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores aspernatur consectetur repellat nesciunt praesentium. Amet magnam nisi veritatis dolore sapiente, nam sunt. Sit, similique. Minima quam atque asperiores. Consequuntur, eum!</p>
+                    </div>
+                </div>
+                <div class="col">
+                        <div class="testimonial">
+                            <img src="imagens/test2.png" alt="pessoa">
+                            <div class="name"><strong>Thiago</strong></div>
+                            <div class="stars">
+                                <i class="far fa fa-star"></i>
+                                <i class="far fa fa-star"></i>
+                                <i class="far fa fa-star"></i>
+                                <i class="far fa fa-star"></i>
+                                <i class="far fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores aspernatur consectetur repellat nesciunt praesentium. Amet magnam nisi veritatis dolore sapiente, nam sunt. Sit, similique. Minima quam atque asperiores. Consequuntur, eum!</p>
+                        </div>
+                </div>
+                <div class="col">
+                        <div class="testimonial">
+                            <img src="imagens/test1.png" alt="pessoa">
+                            <div class="name"><strong>Betinho</strong></div>
+                            <div class="stars">
+                                <i class="far fa fa-star"></i>
+                                <i class="far fa fa-star"></i>
+                                <i class="far fa fa-star"></i>
+                                <i class="far fa fa-star"></i>
+                                <i class="far fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores aspernatur consectetur repellat nesciunt praesentium. Amet magnam nisi veritatis dolore sapiente, nam sunt. Sit, similique. Minima quam atque asperiores. Consequuntur, eum!</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact_form" id="fale_conosco">
+        <h2>Fale Conosco!</h2>
+        <div class="contact_form_content">
+            <form action="GET">
+                <div class="txtb">
+                    <label>Nome Completo :</label>
+                    <input type="text" name="" value="" placeholder="Digite seu nome" maxlength="70" required>
+                </div>
+                <div class="txtb">
+                    <label>E-mail :</label>
+                    <input type="email" name="" value="" placeholder="Digite seu e-mail" maxlength="50" requireds>
+                </div>
+                <div class="txtb">
+                    <label> Mensagem :</label>
+                    <textarea maxlength="300"></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="formBtn">
+            </form>
+        </div>
+    </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0656932253614!2d-46.65298398507052!3d-23.56608398468064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.+Paulista+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1552311784381" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <section class="footer">
+        <div class="footer_social_icons">
+            <ul>
+                <li><a href="#" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#" target="blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" target="blank"><i class="fab fa-twitter-square"></i></a></li>
+            </ul>
+            <div>
+                <p><strong>pontodigital@gmail.com</strong></p>
+                <p><strong>(11) 36744112</strong></p>
+                <p><strong>Av. Paulista</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="login" class="logine x">
+        <div class="login">
+            <form action="GET">
+                <div class="close">+</div>
+                <h2>Login</h2>
+                <input type="email" placeholder="E-mail" required>
+                <input type="password" placeholder="Senha" required>
+                <a href="#">Esqueceu sua senha?</a>
+                <input type="submit" placeholder="Enviar" required>
+            </form>
+        </div>
+
+    </section>
+
+    
+
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var $doc = $('html, body');
+        $('.scrollLink').click(function() {
+            $doc.animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 1000);
+            return false;
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+
+        $(window).scroll(function(){
+        if($(this).scrollTop() > 40){
+            $('.topBtn').fadeIn();
+        } else{
+            $('.topBtn').fadeOut();
+        }
+        });
+
+        $(".topBtn").click(function(){
+        $('html ,body').animate({scrollTop : 0},800);
+        });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".menu_icon").on("click", function(){
+                $("nav ul").toggleClass("showing");
+            });
+        });
+    </script>
+    <script>
+        $(function () {
+            var login = $('.logine');
+            var botao = $('.log');
+            botao.on('click', function () {
+                login.toggleClass("active");
+                login.removeClass("login");
+            });
+        });
+        $(function () {
+            var login = $('.logine');
+            var botao = $('.close');
+            botao.on('click', function () {
+                login.toggleClass("active");
+                login.removeClass("login");
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+C:\Users\41813664803\Documents\Full Ponto Digital\bin\Debug\netcoreapp2.1\Full Ponto Digital.deps.json
+C:\Users\41813664803\Documents\Full Ponto Digital\bin\Debug\netcoreapp2.1\Full Ponto Digital.runtimeconfig.json
+C:\Users\41813664803\Documents\Full Ponto Digital\bin\Debug\netcoreapp2.1\Full Ponto Digital.runtimeconfig.dev.json
+C:\Users\41813664803\Documents\Full Ponto Digital\bin\Debug\netcoreapp2.1\Full Ponto Digital.dll
+C:\Users\41813664803\Documents\Full Ponto Digital\bin\Debug\netcoreapp2.1\Full Ponto Digital.pdb
+C:\Users\41813664803\Documents\Full Ponto Digital\bin\Debug\netcoreapp2.1\Full Ponto Digital.Views.dll
+C:\Users\41813664803\Documents\Full Ponto Digital\bin\Debug\netcoreapp2.1\Full Ponto Digital.Views.pdb
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.csprojAssemblyReference.cache
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.csproj.CoreCompileInputs.cache
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.RazorAssemblyInfo.cache
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.RazorAssemblyInfo.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.AssemblyInfoInputs.cache
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.AssemblyInfo.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.TagHelpers.input.cache
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.TagHelpers.output.cache
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.RazorCoreGenerate.cache
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.RazorTargetAssemblyInfo.cache
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.RazorTargetAssemblyInfo.cs
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.Views.pdb
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.dll
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.pdb
+C:\Users\41813664803\Documents\Full Ponto Digital\obj\Debug\netcoreapp2.1\Full Ponto Digital.csproj.CopyComplete
