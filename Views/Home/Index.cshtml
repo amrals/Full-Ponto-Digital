@@ -1,27 +1,12 @@
-﻿@{
+﻿@model Full_Ponto_Digital.ViewModels.PlanoViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
 <html lang="pt-br">
 <body>
     <header>
         <h1>Ponto Digital</h1>
-        <nav>
-            <div class="menu_icon">
-                <i class="fas fa-bars"></i>
-            </div>
-            <a class="logo" href="#"><img src="imagens/logo2.png" alt="logo"></a>
-            <div class="menu">
-                <ul>
-                    <li><a href="#titulos" class="scrollLink">Funcionalidades</a></li>
-                    <!-- <li><a href="#como_funciona" class="scrollLink">Como Funciona</a></li> -->
-                    <li><a href="#planos" class="scrollLink">Planos</a></li>
-                    <li><a href="#quem_somos" class="scrollLink">Quem Somos</a></li>
-                    <!-- <li>Tel:3675-5913</li> -->
-                    <li><a href="#fale_conosco" class="scrollLink">Contato</a></li>
-                    <li><a href="#" class="log">Login</a></li>
-                </ul>
-            </div>
-        </nav>
+        
     </header>
     <section class="banner">
     </section>
@@ -115,7 +100,7 @@
 
     <h2 id="cadastro">Cadastre-se</h2>
     <section class="cadastro">
-        <form action="GET" class="box_cad">
+        <form method="POST" class="box_cad" action="Cadastro/Cadastrar">
             <label for="nome">Nome Completo : </label>
             <input type="text" name="nome"  required>
             <label for="email">E-mail :</label>
@@ -124,6 +109,13 @@
             <input type="password" name="senha" required>
             <label for="data">Data de nascimento :</label>
             <input type="date" name="data" id="datanascimento" required>
+            <label for="plano">Plano :</label>
+            <select id="plano" name="plano" required>
+            <option value="" disabled selected>Selecione</option>
+                @foreach(var plano in Model.Planos){
+                    <option value=@plano.Nome>@plano.Nome</option>
+                }
+            </select>
             <input type="submit" name="" value="Cadastre-se">
             <a href="#" class="log">Já tem uma conta? Faça login!</a>
         </form>

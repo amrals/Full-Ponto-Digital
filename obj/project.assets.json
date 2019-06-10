@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\41813664803\\Documents\\Full Ponto Digital\\Full Ponto Digital.csproj",
+      "projectUniqueName": "c:\\Users\\41813664803\\Documents\\Full-Ponto-Digital\\Full Ponto Digital.csproj",
       "projectName": "Full Ponto Digital",
-      "projectPath": "c:\\Users\\41813664803\\Documents\\Full Ponto Digital\\Full Ponto Digital.csproj",
+      "projectPath": "c:\\Users\\41813664803\\Documents\\Full-Ponto-Digital\\Full Ponto Digital.csproj",
       "packagesPath": "C:\\Users\\41813664803\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\41813664803\\Documents\\Full Ponto Digital\\obj\\",
+      "outputPath": "c:\\Users\\41813664803\\Documents\\Full-Ponto-Digital\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
