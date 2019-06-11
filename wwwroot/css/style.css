@@ -6,6 +6,9 @@
     /* font-family: Arial Rounded MT, bold; */
     box-sizing: border-box;
 }
+textarea {
+    resize: none;
+}
 p{
     font-family: 'Montserrat', sans-serif;
 }
@@ -65,6 +68,8 @@ nav.black ul{
 nav ul li{
     display: inline-block;
     padding: 22px;
+    color: #000;
+    font-size: 22px;
 }
 nav ul li a{
     text-decoration: none;

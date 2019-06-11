@@ -14,6 +14,7 @@ namespace Full_Ponto_Digital.Repository
             {
                 var valores= item.Split(";");
                 Plano plano = new Plano();
+                plano.Id = int.Parse(valores[0]);
                 plano.Nome = valores[1];
                 plano.Preco = float.Parse(valores[2]);
 

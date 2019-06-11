@@ -5,14 +5,27 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Full_Ponto_Digital.Models;
+using Full_Ponto_Digital.ViewModels;
+using Full_Ponto_Digital.Repository;
+using Microsoft.AspNetCore.Http;
 
 namespace Full_Ponto_Digital.Controllers
 {
     public class HomeController : Controller
     {
+        PlanoRepository planoRepositorio = new PlanoRepository();
+        private string SESSION_EMAIL = "_EMAIL";
+        private string SESSION_CLIENTE = "_NOME";
         public IActionResult Index()
         {
-            return View();
+            var planos = planoRepositorio.Listar();
+
+            PlanoViewModel plano = new PlanoViewModel();
+            plano.Planos = planos;
+
+            ViewData["User"] = HttpContext.Session.GetString(SESSION_CLIENTE);
+            ViewData["NomeView"] = "Home";
+            return View(plano);
         }
 
         public IActionResult About()

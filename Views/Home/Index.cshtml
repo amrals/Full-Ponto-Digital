@@ -221,20 +221,19 @@
 
     <section id="login" class="logine x">
         <div class="login">
-            <form action="GET">
+            <form method="POST" action='@Url.Action("Login", "Usuario")'>
                 <div class="close">+</div>
                 <h2>Login</h2>
-                <input type="email" placeholder="E-mail" required>
-                <input type="password" placeholder="Senha" required>
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="E-mail" required name="email">
+                <label for="senha">Senha</label>
+                <input type="password" placeholder="Senha" required name="senha">
                 <a href="#">Esqueceu sua senha?</a>
-                <input type="submit" placeholder="Enviar" required>
+                <input type="submit" placeholder="Enviar">
             </form>
         </div>
 
     </section>
-
-    
-
 
     <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

@@ -8,6 +8,7 @@ namespace Full_Ponto_Digital.Controllers
 {
     public class CadastroController : Controller
     {
+        PlanoRepository planoRepositorio = new PlanoRepository();
         private UsuarioRepository clienteRepositorio = new UsuarioRepository();
         public IActionResult Index()
         {
@@ -22,6 +23,7 @@ namespace Full_Ponto_Digital.Controllers
             cliente.Senha = form["senha"];
             cliente.Email = form["email"];
             cliente.DataNascimento = DateTime.Parse(form["data"]);
+            
 
             clienteRepositorio.Inserir(cliente);
 

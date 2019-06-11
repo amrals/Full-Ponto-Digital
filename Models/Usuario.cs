@@ -8,5 +8,6 @@ namespace Full_Ponto_Digital.Models
         public string Email {get;set;}
         public string Senha {get;set;}
         public DateTime DataNascimento {get;set;}
+        public Plano Plano {get;set;}
     }
 }
