@@ -50,7 +50,7 @@ using Full_Ponto_Digital.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20d42231576741c09888b14375f33306", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "29685e6456924047a824b4888658ca67", async() => {
                 BeginContext(6, 93, true);
                 WriteLiteral("\r\n     <!-- <link href=\"~/css/style-pedidos-flex.css\" rel=\"stylesheet\" type=\"text/css\"> -->\r\n");
                 EndContext();

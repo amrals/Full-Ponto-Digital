@@ -129,7 +129,7 @@ namespace Full_Ponto_Digital.Repository
         }
 
         private string PrepararRegistroCSV (Usuario cliente) {
-            return $"id={CONT};nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};data={cliente.DataNascimento}\n";
+            return $"id={CONT};nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};data={cliente.DataNascimento};{cliente.UrlFoto}\n";
         }
         protected string[] ObterRegistrosCSV (string PATH) {
             return File.ReadAllLines (PATH);

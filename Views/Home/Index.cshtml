@@ -1,9 +1,11 @@
 ﻿@model Full_Ponto_Digital.ViewModels.PlanoViewModel
 @{
     ViewData["Title"] = "Home Page";
+    var user = (string) ViewData["User"];
 }
 <html lang="pt-br">
 <body>
+    
     <header>
         <h1>Ponto Digital</h1>
         
@@ -14,18 +16,21 @@
     <section class="funcionalidades" id="titulos">
         <h2>Funcionalidades</h2>
         <div class="funcvantagens">
-            <h3>Para empregador</h3>
-            <h3>Para funcionário</h3>
-            <ul>
-                <li>
-                    <p>lindeza</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <p>lindeza</p>
-                </li>
-            </ul>
+            <div id="pempregador">
+                <h3>Para empregador</h3>
+                <br>
+                <p>Rapidez e simplicidade</p>
+                <p>Monitoramento em tempo real</p>
+                <p>Segurança e eficiência para seu negócio!</p>
+            </div>
+            <img src="imagens/parceria2.png">
+            <div id="pfuncionario">
+                <h3>Para funcionário</h3>
+                <br>
+                <p>Organização, nunca perca o prazo!</p>
+                <p>Rápida comunicação<p>
+                <p>Plataforma interativa e intuitiva<p>
+            </div>
         </div>
     </section>
 
@@ -101,25 +106,30 @@
     <h2 id="cadastro">Cadastre-se</h2>
     <section class="cadastro">
         <form method="POST" class="box_cad" action="Cadastro/Cadastrar">
-            <label for="nome">Nome Completo : </label>
-            <input type="text" name="nome"  required>
-            <label for="email">E-mail :</label>
-            <input type="email" name="email" required>
-            <label for="senha">Senha :</label>
-            <input type="password" name="senha" required>
-            <label for="data">Data de nascimento :</label>
-            <input type="date" name="data" id="datanascimento" required>
-            <label for="plano">Plano :</label>
-            <select id="plano" name="plano" required>
-            <option value="" disabled selected>Selecione</option>
-                @foreach(var plano in Model.Planos){
-                    <option value=@plano.Nome>@plano.Nome</option>
-                }
-            </select>
-            <input type="submit" name="" value="Cadastre-se">
-            <a href="#" class="log">Já tem uma conta? Faça login!</a>
+        <div id="cdivona">
+            <div id="c1">
+                <label for="nome">Nome Completo : </label>
+                <input type="text" name="nome"  required>
+                <label for="email">E-mail :</label>
+                <input type="email" name="email" required>
+                <label for="senha">Senha :</label>
+                <input type="password" name="senha" required>
+            </div>
+            <div id="c2">
+                <label for="data">Data de nascimento :</label>
+                <input type="date" name="data" id="datanascimento" required>
+                <label for="plano">Plano :</label>
+                <select id="plano" name="plano" required>
+                <option value="" disabled selected>Selecione</option>
+                    @foreach(var plano in Model.Planos){
+                        <option value=@plano.Nome>@plano.Nome</option>
+                    }
+                </select>
+                <input type="submit" name="" value="Cadastre-se">
+                <a href="#" class="log">Já tem uma conta? Faça login!</a>
+            </div>
+        </div>
         </form>
-        <img src="imagens/mcpd.png" alt="imagem do produto">
     </section>
 
     <section class="quem_somos" id="quem_somos">
@@ -182,27 +192,26 @@
             </div>
         </div>
     </section>
-
-    <section class="contact_form" id="fale_conosco">
+    @if (string.IsNullOrEmpty(user))
+    {
+        <h2 id="reclamalogin">Faça Login para contatar-nos!</h2>
+    }else
+    {
+        <section class="contact_form" id="fale_conosco">
         <h2>Fale Conosco!</h2>
         <div class="contact_form_content">
-            <form action="GET">
-                <div class="txtb">
-                    <label>Nome Completo :</label>
-                    <input type="text" name="" value="" placeholder="Digite seu nome" maxlength="70" required>
-                </div>
-                <div class="txtb">
-                    <label>E-mail :</label>
-                    <input type="email" name="" value="" placeholder="Digite seu e-mail" maxlength="50" requireds>
-                </div>
+            <form method="POST">
                 <div class="txtb">
                     <label> Mensagem :</label>
-                    <textarea maxlength="300"></textarea>
+                    <textarea maxlength="300" name="mensagem"></textarea>
+                    <input type="file" name="foto">
                 </div>
                 <input type="submit" value="Enviar" class="formBtn">
             </form>
         </div>
-    </section>
+        </section>
+    }
+    
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0656932253614!2d-46.65298398507052!3d-23.56608398468064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.+Paulista+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1552311784381" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     <section class="footer">
         <div class="footer_social_icons">

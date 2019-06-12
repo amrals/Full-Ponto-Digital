@@ -6,11 +6,29 @@
     /* font-family: Arial Rounded MT, bold; */
     box-sizing: border-box;
 }
+select{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f4b443;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #f4b443;
+    border-radius: 15px;
+    transition: 0.25s;
+}
 textarea {
     resize: none;
 }
 p{
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+h3{
+    font-size: 1.5em;
 }
 h2{
     font-family: "Sui Generis", bold;
@@ -105,12 +123,27 @@ nav ul li a:hover{
     justify-content: space-evenly;
     padding-top: 5%;
 }
+.funcionalidades{
+    padding-top: 2%;
+}
+#titulos img{
+    text-align: center;
+}
 .divona{
     display: flex;
 }
 .funcvantagens{
     display: flex;
     justify-content: space-around;
+    padding-top: 2%;
+}
+#pempregador{
+    text-align: center;
+    margin-right: -130px;
+}
+#pfuncionario{
+    text-align: center;
+    margin-left: -80px;
 }
 .flex_func{
     display: flex;
@@ -227,6 +260,17 @@ nav ul li a:hover{
     border-radius: 50%;
     outline: none;
 }
+#cdivona{
+    display: flex;
+    justify-content: space-around;
+}
+#c1{
+    
+    margin: 10px;
+}
+#c2{
+    margin: 10px;
+}
 #cadastro{
     padding-top: 5%;
 }
@@ -245,7 +289,7 @@ nav ul li a:hover{
     margin-right: -5%;
 }
 .box_cad{
-    width: 300px;
+    width: 500px;
     padding: 40px 40px 20px 40px;
     background: #005eb9;
     border-radius: 10px;
@@ -380,7 +424,11 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 #fale_conosco{
-    padding-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#reclamalogin{
+    text-align: center;
 }
 .contact_form_content{
     width: 85%;
@@ -400,7 +448,7 @@ nav ul li a:hover{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    
+    margin-left: 34.5%;
 }
 .txtb{
     border: 1px solid #fff;
@@ -589,6 +637,16 @@ iframe{
 }
 #login form a{
     color: #fff;
+}
+#divona{
+    display: flex;
+    justify-content: space-around;
+}
+#comentarios{
+    text-align: center;
+}
+#usuarios{
+    text-align: center;
 }
 @keyframes anim{
     0% {
